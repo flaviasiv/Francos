@@ -567,7 +567,7 @@ swiper-container{
     }
     .preferencecard{
         padding: 6.905px 55.244px 6.905px 27.622px;
-        width: 345px;
+        width: 320px;
     }
     .preferencecard h3{
         font-size: 15px;
@@ -865,11 +865,6 @@ form button{
     border: 1px solid #FFEDA3;
     background: var(--Style, linear-gradient(86deg, #A18B53 0%, #FFEDA3 49.25%, #A18B53 86.52%));
 }
-form button:hover{
-    background-color: #CAAA57;
-    color: #FFF;
-    border:1px solid #fff
-}
 #form input:focus, #form textarea:focus{
     outline: 1px solid #fff;     /* oranges! yey */
 }
@@ -966,10 +961,8 @@ form button:hover{
     .mapscontainer{
         padding: 48px 20px 86px;
     }
-    .mapsfooter{
+    .mapinfo ul{
         flex-direction: column;
-    }
-    .mapsfooter .mapinfo ul{
         text-align: center;
     }
     .mapinfo ul li h2{
@@ -988,8 +981,8 @@ form button:hover{
 .popuptest{
     display: flex;
     flex-direction: column;
-    padding: 200px 0 0;
-    gap: 39px;
+    padding: 200px 0 100px;
+    gap: 48px;
 }
 .popup .content{
     position: relative;
@@ -1007,26 +1000,22 @@ form button:hover{
 }
 .popupimg{
     width: 100%;
-    max-width: 1000px;
+    max-width: 602px;
     margin: auto;
 }
-.popup .content h1{    
-    font-family: 'Cinzel';
-    font-size: 73.739px;
-    font-weight: 700;
-    line-height: 90%; /* 66.365px */
-    text-transform: uppercase;
-}
-.popup .content span{
-    font-family: 'Amsterdam';
-    font-size: 64.522px;
-    font-weight: 400;
-    line-height: 120%;
+.popup .content h1{  
+    font-family: 'Inter';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; 
+    text-transform: capitalize;    
 }
 .popup .content p{
     max-width: 550px;
-    font-family: "Glacial Indifference";
+    font-family: 'Inter';
     font-size: 14px;
+    font-style: normal;
     font-weight: 400;
     line-height: 130%;
 }
@@ -1073,14 +1062,16 @@ form button:hover{
     .popup .content p{
         font-size: 16px;
         margin: auto;
-        padding: 0 10px 0;
+    }
+    .popuptest{
+        padding: 200px 10px 100px;
     }
 }
 a{
     text-decoration: none;
     color: inherit;
 }
-.btn1:hover, .btn2:hover{
+.btn1:hover, .btn2:hover, form button:hover{
     border: 1px solid #FFEDA3;
     background: #FFFAE5;
 }
