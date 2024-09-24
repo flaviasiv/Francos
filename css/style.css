@@ -245,6 +245,10 @@ swiper-container{
     padding-bottom: 80px;
 }
 @media screen and (max-width:850px) {
+    .vetorbg{
+        bottom: -50px;
+        width: 300px;
+    }
     .postercontainer{
         margin-top: 0;
     }
@@ -263,6 +267,7 @@ swiper-container{
         flex-direction: column;
         width: 100%;    
         align-items: center;
+        padding: 170px 0 0;
     }
     .posterimgbg{
         width: 100%;    
@@ -288,7 +293,7 @@ swiper-container{
     }
 } 
 .servicescontainer{
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 .servicestitle{
     position: relative;
@@ -419,9 +424,7 @@ swiper-container{
     }
 }
 .aboutcontainer{
-    background: url(../assets/aboutbg.png) no-repeat 100%;
-    background-position: center;
-    background-size: cover;
+    background: #082438;
     padding: 120px 0 120px 0;
 }
 .about{
@@ -535,8 +538,7 @@ swiper-container{
 }
 @media screen and (max-width:990px) {
     .aboutcontainer{
-        padding: 120px 10px;
-        background: #001321;
+        padding: 80px 10px;
     }
     .about{
         flex-direction: column;
@@ -584,6 +586,9 @@ swiper-container{
         font-size: 15px;
     }
 }
+.gallerycontainer{
+    padding: 80px 0;
+}
 .gallerytitle{
     position: relative;
     display: flex;
@@ -591,7 +596,6 @@ swiper-container{
     gap: 24px;
     text-align: center;
     margin: auto;
-    padding: 70px 0 0;
     z-index: 999;
 }
 .gallerytitle .small{
@@ -634,7 +638,6 @@ swiper-container{
     .gallerygridm{display: block;} 
     .gallerycontainer{
         background-size: 250%;
-        padding: 50px 0 50px;
     }
     .gallerytitle h3{
         max-width: 300px;
@@ -661,9 +664,6 @@ swiper-container{
     }
 }
 @media screen and (max-width:900px) {    
-    .gallerycontainer{
-        padding: 50px 0 0;
-    }
     .bggallery{
         height: 880px;
     }
@@ -686,7 +686,6 @@ swiper-container{
 }
 .reviewscontainer{
     padding: 80px 0;
-    margin-top: 50px;
 }
 .reviewstitle{
     display: flex;
@@ -765,7 +764,7 @@ swiper-container{
 @media screen and (max-width:580px) {
     .ig-embed iframe{
         width:100%;
-        max-width: 300px; 
+        max-width: 400px; 
         height: 450px;
     }    
 }
