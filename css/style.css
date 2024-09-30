@@ -282,7 +282,6 @@ swiper-container{
         top: 0;
         z-index: 9;
         left: 0;
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%);
         width: 100%;
         height: 365px;
         bottom: 0;
@@ -576,14 +575,14 @@ swiper-container{
     .aboutpref{
         flex-direction: column;
         padding: 40px 0;    
-        padding-top: 300px;
+        padding-top: 270px;
     }
     .imgvwbg{
         height: 430px;
     }
     .preferencecard{
-        padding: 6.905px 55.244px 6.905px 27.622px;
-        width: 320px;
+        padding: 6.905px 0 6.905px 27.622px;
+        width: 345px;
     }
     .preferencecard h3{
         font-size: 15px;
@@ -751,7 +750,7 @@ swiper-container{
 .ig-embed iframe{
     width:100%;
     max-width: 900px; 
-    height: 810px;
+    height: 550px;
 }
 @media screen and (max-width:980px) {
     .ig-embed h2{
@@ -759,7 +758,7 @@ swiper-container{
     }
     .ig-embed iframe{
         max-width: 500px; 
-        height: 500px;
+        height: 400px;
     }    
     .reviewstitle h3{
         max-width: 290px;
@@ -775,7 +774,7 @@ swiper-container{
     .ig-embed iframe{
         width:100%;
         max-width: 400px; 
-        height: 450px;
+        height: 350px;
     }    
 }
 .formcontainer{
@@ -1131,6 +1130,13 @@ a{
 .btn1:hover, .btn2:hover, form button:hover{
     border: 1px solid #FFEDA3;
     background: #FFFAE5;
+}
+.servicesbtn:hover{
+    background-clip: initial;
+    -webkit-background-clip: initial;
+    -webkit-text-fill-color: inherit;
+    background: #FFFAE5;
+    border: 1px solid #FFEDA3;
 }
 .swiper2:hover {
     box-shadow: 10px 10px 16px rgba(5, 5, 5, 0.5); 
