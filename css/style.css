@@ -753,7 +753,7 @@ swiper-container{
 .ig-embed iframe{
     width:100%;
     max-width: 900px; 
-    height: 550px;
+    height:850px;
 }
 @media screen and (max-width:980px) {
     .ig-embed h2{
@@ -761,7 +761,7 @@ swiper-container{
     }
     .ig-embed iframe{
         max-width: 500px; 
-        height: 400px;
+        height: 470px;
     }    
     .reviewstitle h3{
         max-width: 290px;
@@ -777,7 +777,7 @@ swiper-container{
     .ig-embed iframe{
         width:100%;
         max-width: 400px; 
-        height: 350px;
+        height: 400px;
     }    
 }
 .formcontainer{
