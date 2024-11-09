@@ -233,8 +233,12 @@ swiper-container{
 .posterinfos ul li{
     list-style: none;
 }
+.btnsocials:hover svg stop{
+    stop-color: #082438;
+    fill: #FFFAE5;
+}
 .btnsocials:hover svg path{
-    fill: #082438;
+    fill: #FFFAE5;
 }
 .btnsocials svg:hover{
     border-radius: 100%;
@@ -508,22 +512,11 @@ swiper-container{
     font-weight: 700;
     line-height: 120%;
 }
-/* .preferencecard:hover h3{
-    color: #000;
-    transition: 0.3s all;
-}
-.preferencecard:hover svg{
-    stroke: #000;
-    transition: 0.2s all;
-}
-.preferencecard:hover svg path{
-    fill: #000;
-    transition: 0.2s all;
-}
 .preferencecard:hover{
     box-shadow: 10px 10px 16px rgba(3, 3, 3, 0.5); 
-    transition: 0.3s all;
-} */
+    margin:2px auto;
+    transition: 0.1s all;
+}
 .logo{
     display: flex;
     max-width: 500px;
