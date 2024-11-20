@@ -224,6 +224,14 @@ swiper-container{
     width: 100%;
     max-width: 490px;
 }
+.socials-icon{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.socials-icon .selo{
+    max-width: 86px;
+}
 .posterinfos ul{
     display: flex;
     gap: 10px;
