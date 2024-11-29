@@ -38,7 +38,7 @@ html{
     position: relative;
     transform: translateX(-50%);
     opacity: 0.4;
-    transition: 0.5s all ease;
+    transition: 0.3s all ease;
 }
 .reveal.active{
     transform: translateX(0%);
@@ -48,7 +48,7 @@ html{
     position: relative;
     transform: translateX(0%);
     opacity: 0.2;
-    transition: 0.5s all ease;
+    transition: 0.3s all ease;
 }
 .reveal.active.revealtext{
     transform: translateX(0%);
@@ -244,14 +244,15 @@ swiper-container{
 .btnsocials:hover svg stop{
     stop-color: #082438;
     fill: #FFFAE5;
+    transition: 0.1s;
 }
 .btnsocials:hover svg path{
     fill: #FFFAE5;
+    transition: 0.1s;
 }
 .btnsocials svg:hover{
     border-radius: 100%;
-    box-shadow: 10px 10px 16px rgba(3, 3, 3, 0.5); 
-    
+    transition: 0.1s;
 }
 .postergrid{
     padding-bottom: 80px;
@@ -337,6 +338,7 @@ swiper-container{
     margin: auto;
     gap: 50px;
 }
+.sgridm{display: none;}
 .MySwiper2 {
     display: flex;
     justify-content: center;
@@ -422,6 +424,8 @@ swiper-container{
     height: 100%;
 }
 @media screen and (max-width:990px) {
+    .sgridd{display: none;}
+    .sgridm{display: flex;}
     .servicescontainer{
         padding-bottom: 40px;
     }
@@ -479,11 +483,11 @@ swiper-container{
 }
 .aboutpref{
     display: flex;
-    padding: 170px 0 80px;
+    padding: 170px 50px 80px;
     gap: 24px;
     color: #FFF;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
     justify-content: space-between;
 }
@@ -521,9 +525,12 @@ swiper-container{
     line-height: 120%;
 }
 .preferencecard:hover{
+    
+    scale: 1.09;
+    
     box-shadow: 10px 10px 16px rgba(3, 3, 3, 0.5); 
-    margin:2px auto;
-    transition: 0.1s all;
+    margin: 0 auto;
+    transition: 0.2s ease-in-out;
 }
 .logo{
     display: flex;
@@ -1144,5 +1151,5 @@ a{
 }
 .swiper2:hover {
     box-shadow: 10px 10px 16px rgba(5, 5, 5, 0.5); 
-  transition: 0.1s ease-in;
+  transition: 0.1s ease-in-out;
 }

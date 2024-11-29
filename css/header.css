@@ -43,7 +43,7 @@ header {
     padding: 0 50px 0 50px;
     height: 80px;
     scroll-behavior: smooth;
-    transition: 0.7s;
+    transition: 0.3s;
 } 
 .nonebar{
     display: flex;
@@ -87,7 +87,7 @@ header {
 }
 .menu-linksbtn a:hover{
   color: #FFEDA3;
-    transition: 0.2s ease-in-out;
+    transition: 0.1s ease-in-out;
 }
 .menusocial{
   position: relative;
@@ -148,12 +148,12 @@ header {
 .dropdown-content {
   display: none;
   position: absolute;
-  border: 1px solid var(--Color-Neutral-neutral-darker, #222);
+  border: 1px solid #222;
   background: linear-gradient(119deg, rgba(8, 36, 56, 0.80) 32.91%, rgba(8, 36, 56, 0.80) 100%);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  margin-top: 300px;
+  margin-top: 280px;
 }
 
 /* Links inside the dropdown */
@@ -180,11 +180,11 @@ header {
 }
 .menusocial ul a:hover svg{
   fill: #fff;
-  transition: 0.2s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 .menusocial ul a:hover svg circle{
   fill: #fff;
-  transition: 0.2s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 .callnow{
   position: absolute;

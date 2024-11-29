@@ -53,8 +53,8 @@ footer{
     font-size: 16px;
     font-weight: 600;
 }
-.footernav ul li a:hover, .address li a:hover{
-    color: #f8ecbb;
+.footernav ul li a:hover, .address li a:hover, .rights a:hover{
+    color: #f8e69c;
     transition: 0.1s;
 }
 .address{
@@ -87,7 +87,7 @@ footer{
   fill: #EEEEF0;
 }
 .address ul a:hover svg path{
-  fill: #f8ecbb;
+  fill: #f8e69c;
   transition: 0.2s ease-in-out;
 }
 .footerinfos{
@@ -104,6 +104,7 @@ footer{
     font-weight: 600;
     line-height: 120%;
     margin-bottom: 8px;
+    align-items: center;
 }
 .footerinfos ul a{
     list-style: none;
